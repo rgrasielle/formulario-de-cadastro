@@ -32,7 +32,8 @@ números.
 ## Front end
 
 - HTML / CSS / JS
-- ReactJS
+- React
+- Axios
 
 # Como executar o projeto
 
