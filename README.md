@@ -70,6 +70,9 @@ npm install
 
 # executar o projeto
 npm run dev
+
+# acessar o projeto no navegador
+http://localhost:5173/
 ```
 
 # Autor
