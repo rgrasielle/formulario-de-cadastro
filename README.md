@@ -1,4 +1,4 @@
-# Formulário de cadastro
+# Formulário de cadastro 📋
 
 # Sobre o projeto
 
@@ -15,9 +15,10 @@ números.
 
 ## Layout
 
-![Tela Cadastro](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+![pagina-cadastro](https://github.com/user-attachments/assets/f6d6597e-8af1-4e4e-b316-de7e5a2b45a5)
 
-![Tela Usuários](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+![pagina-listagem](https://github.com/user-attachments/assets/6e8ac5af-1a72-4c6b-b9e1-ccef9023a412)
+
 
 # Tecnologias utilizadas
 
