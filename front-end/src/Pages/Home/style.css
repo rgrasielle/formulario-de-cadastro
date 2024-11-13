@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  color: #080058;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.app-container {
+  background: #f8f8f8;
+  height: 92%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  width: 500px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  width: 500px;
+  margin-right: 10px;
+}
+
+.form-group:last-child {
+  margin-right: 0; /* Remover a margem do último campo */
+}
+
+.checkbox-group {
+  flex-direction: row;
+  align-items: center;
+}
+
+.checkbox-group label {
+  font-size: 0.825rem;
+  margin-left: 10px;
+}
+
+.form-group label {
+  color: #000000;
+  font-weight: 500;
+}
+
+.form-group input {
+  padding: 12px;
+  border-style: solid;
+  border-width: thin;
+  background-color: #ffffff;
+  color: #010101;
+  outline: 1px solid 444;
+}
+
+.phone-group input {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form-group .input-error {
+  outline: 1px solid rgb(255, 72, 72);
+}
+
+.form-group .error-message {
+  color: rgb(255, 72, 72);
+  font-size: 0.75rem;
+  margin-top: 8px;
+}
+
+.form-group button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #eee;
+  background-color: #080058;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 10px;
+  box-shadow: 0 3px 6px rgba(202, 202, 202, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 500ms ease;
+}
+
+.form-group button:hover {
+  cursor: pointer;
+  background-color: #0d0287;
+}
+
+.add-phone,
+.remove-phone {
+  color: #080058;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 90%;
+  margin-top: 5px;
+  margin-left: 10px;
+  text-align: right;
+}
+
+ul {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.usuarios-title {
+  color: black;
+  font-size: 24px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.telefone-list {
+  margin-top: 10px; /* Remove a margem superior se necessário */
+  margin-bottom: 4px; /* Adiciona um espaço pequeno abaixo da lista de telefones */
+}
